@@ -1,6 +1,6 @@
 <?php
 
-namespace Maronova\FroalaTextEditor;
+namespace Marotura\FroalaTextEditor;
 
 use Laravel\Nova\Fields\Field;
 

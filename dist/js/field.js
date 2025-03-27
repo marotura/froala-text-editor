@@ -29861,7 +29861,7 @@ module.exports = Vue;
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkmaronova_froala_text_editor"] = self["webpackChunkmaronova_froala_text_editor"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkmarotura_froala_text_editor"] = self["webpackChunkmarotura_froala_text_editor"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
