@@ -1,13 +1,14 @@
 {
-    "name": "maronova/froala-text-editor",
-    "description": "A Laravel Nova field.",
+    "name": "marotura/froala-text-editor",
+    "description": "A custom Laravel Nova field using Froala editor.",
     "keywords": [
         "laravel",
         "nova"
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.3|^8.0"
+        "php": "^7.3|^8.0",
+        "laravel/nova": "^4.0"
     },
     "autoload": {
         "psr-4": {
@@ -21,6 +22,16 @@
             ]
         }
     },
+    "authors": [
+        {
+            "name": "Marotura B.V.",
+            "email": "techniek@marotura.com"
+        },
+        {
+            "name": "Arminda R. Marin",
+            "email": "a.marin@marotura.com"
+        }
+    ],
     "config": {
         "sort-packages": true
     },
