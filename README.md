@@ -7,7 +7,7 @@ FROALA_ACTIVATION_KEY="your-froala-access-key"
 
 ## Installation
 Use composer to import package. Command is:
-composer require marotura/froala-text-editor --dev
+composer require marotura/froala-text-editor
 
 ## Options
 Coming soon.
