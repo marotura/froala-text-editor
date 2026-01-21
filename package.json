@@ -12,14 +12,16 @@
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.2.22",
-    "form-backend-validation": "^2.3.3",
     "laravel-mix": "^6.0.41",
     "lodash": "^4.17.21",
     "postcss": "^8.3.11",
-    "vue-loader": "^16.8.3"
+    "vue-loader": "^17.0.0"
   },
   "dependencies": {
+    "@inertiajs/inertia": "^0.11.0",
+    "form-backend-validation": "^2.3.3",
     "froala-editor": "^4.5.0",
+    "vue": "^3.2.22",
     "vue-froala-wysiwyg": "^4.5.0",
     "vuex": "^4.1.0"
   }

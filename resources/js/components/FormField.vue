@@ -98,11 +98,11 @@ export default {
 </script>
 <style>
 .fr-view h1 {
-    display: block !important;
-    color: #333;
-    font-size: clamp(2rem, 5vw, 3rem);
-    font-weight: bold;
-    line-height: 1.2;
+  display: block !important;
+  color: #333;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: bold;
+  line-height: 1.2;
 }
 
 .fr-dropdown-list h1 {
@@ -110,44 +110,80 @@ export default {
 }
 
 .fr-view h2 {
-    display: block !important;
-    color: #333;
-    font-size: clamp(1.75rem, 4.5vw, 2.5rem);
-    font-weight: bold;
-    line-height: 1.3;
+  display: block !important;
+  color: #333;
+  font-size: clamp(1.75rem, 4.5vw, 2.5rem);
+  font-weight: bold;
+  line-height: 1.3;
 }
 
 .fr-view h3 {
-    display: block !important;
-    color: #333;
-    font-size: clamp(1.5rem, 4vw, 2rem);
-    font-weight: bold;
-    line-height: 1.4;
+  display: block !important;
+  color: #333;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: bold;
+  line-height: 1.4;
 }
 
 .fr-view h4 {
-    display: block !important;
-    color: #333;
-    font-size: clamp(1.25rem, 3.5vw, 1.75rem);
-    font-weight: bold;
-    line-height: 1.5;
+  display: block !important;
+  color: #333;
+  font-size: clamp(1.25rem, 3.5vw, 1.75rem);
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 .fr-view h5 {
-    display: block !important;
-    color: #333;
-    font-size: clamp(1rem, 3vw, 1.5rem);
-    font-weight: bold;
-    line-height: 1.6;
+  display: block !important;
+  color: #333;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.dark .fr-view h1,
+.dark .fr-view h2,
+.dark .fr-view h3,
+.dark .fr-view h4,
+.dark .fr-view h5 {
+  color: #e2e8f0; /* slate-200, for dark mode */
+}
+
+.dark .fr-view a {
+  color: #60a5fa;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.dark .fr-view a:visited {
+  color: #c084fc;
+}
+
+.dark .fr-view a:hover {
+  color: #f87171;
+}
+
+.fr-view a {
+  color: #0000EE;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.fr-view a:visited {
+  color: #551A8B;
+}
+
+.fr-view a:hover {
+  color: #FF0000;
 }
 
 .fr-view ul,
 .fr-view ol {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 .fr-view ul {
@@ -156,5 +192,10 @@ export default {
 
 .fr-view ol {
   list-style: decimal;
+}
+
+.fr-popup .fr-layer-content {
+  max-height: 65vh;
+  overflow-y: auto;
 }
 </style>

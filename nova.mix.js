@@ -31,6 +31,13 @@ class NovaExtension {
       ),
     }
 
+    webpackConfig.resolve.modules = [
+      path.resolve(__dirname, 'node_modules'),
+      'node_modules',
+    ]
+
+    webpackConfig.resolve.symlinks = false
+
     webpackConfig.output = {
       uniqueName: this.name,
     }
