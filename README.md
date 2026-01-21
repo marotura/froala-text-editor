@@ -1,5 +1,5 @@
 # About froala-text-editor
-This text editor is meant to be used for laravel nova 5 by using the Froala editor.
+This text editor is meant to be used for laravel nova 4 and 5 by using the Froala editor.
 
 ### Important
 Don't use version older then 1.0.4 because the package name was changed before this version.
@@ -10,7 +10,7 @@ FROALA_ACTIVATION_KEY="your-froala-access-key"
 
 ## Installation
 Use composer to import package. Command is:
-composer require marotura/froala-text-editor:2.0.1
+composer require marotura/froala-text-editor:3.0.2
 
 ## Usage
 use Marotura\FroalaTextEditor\FroalaTextEditor;
