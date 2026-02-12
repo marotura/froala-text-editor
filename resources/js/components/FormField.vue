@@ -3,7 +3,7 @@
         :field="field"
         :errors="errors"
         :show-help-text="showHelpText"
-        :full-width-content="fullWidthContent"
+        :full-width-content="true"
     >
         <template #field>
             <div id="app">
